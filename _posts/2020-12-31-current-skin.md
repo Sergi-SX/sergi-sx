@@ -21,8 +21,8 @@ This is a test page showing the different components of Bootstrap and how they l
 {% include components/categories.html-%}
 {% endif -%}
 {% if page.show_tags -%}
-#{% include components/tags.html-%}
+{% include components/tags.html-%}
 {% endif -%}
 
 
-#{% include snippets/bootstrapdemo.html  %}
+{% include snippets/bootstrapdemo.html  %}
